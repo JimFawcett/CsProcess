@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessDemo", "ProcessDemo.csproj", "{687E0883-2CF8-4901-B553-9A1C726D26B7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpleConsoleApp", "simpleConsoleApp\simpleConsoleApp.csproj", "{D0436F65-DC2A-424B-8EDA-55A85C3EA742}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{687E0883-2CF8-4901-B553-9A1C726D26B7}.Debug.ActiveCfg = Debug|.NET
+		{687E0883-2CF8-4901-B553-9A1C726D26B7}.Debug.Build.0 = Debug|.NET
+		{687E0883-2CF8-4901-B553-9A1C726D26B7}.Release.ActiveCfg = Release|.NET
+		{687E0883-2CF8-4901-B553-9A1C726D26B7}.Release.Build.0 = Release|.NET
+		{D0436F65-DC2A-424B-8EDA-55A85C3EA742}.Debug.ActiveCfg = Debug|.NET
+		{D0436F65-DC2A-424B-8EDA-55A85C3EA742}.Debug.Build.0 = Debug|.NET
+		{D0436F65-DC2A-424B-8EDA-55A85C3EA742}.Release.ActiveCfg = Release|.NET
+		{D0436F65-DC2A-424B-8EDA-55A85C3EA742}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
